@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 4px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.sub-header-image img {
+    max-width: 500px;
+}
