@@ -41,6 +41,7 @@ button {
     display: flex;
     flex-direction: column;
     margin: 0 150px;
+    gap: 50px;
 }
 
 .header {
@@ -63,6 +64,10 @@ button {
 
 .welcome{
     width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
 }
 
 .welcome-message {
@@ -76,5 +81,5 @@ button {
     color: #E5E7EB;
 }
 .sub-header-image img {
-    max-width: 500px;
+    max-width: 400px;
 }
