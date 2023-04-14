@@ -100,7 +100,7 @@ button {
 
 .pets-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 32px 0 120px 0;
     border: 2px solid black;
     width: 900px;
@@ -109,9 +109,9 @@ button {
 .pets { 
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 200px;
     align-items: space-between;
-    
+    border: 2px solid red;
 }
 
 .square img {
@@ -122,4 +122,5 @@ button {
 .text {
     color: #1F2937;
     text-align: center;
+    padding: 0 24px;
 }
