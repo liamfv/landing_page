@@ -137,10 +137,11 @@ button {
 }
 
 .quotation-block {
-    width: 970px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     margin: 100px;
+    padding: 20px 0;
 }
 
 .quote {
@@ -148,11 +149,13 @@ button {
     font-style: italic; 
     font-weight: 200;
     color: #1F2937;
-    text-align: justify;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .quote-source {
     align-self: flex-end;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 24px;
+    padding-right: 80px;
 }
