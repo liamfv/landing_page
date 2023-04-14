@@ -181,6 +181,9 @@ button {
 
 .signup-block button {
     border: 2px solid white;
+    padding: 0 30px;
+    height: 40px;
+    align-self: center;
     
 }
 
