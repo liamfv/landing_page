@@ -100,10 +100,10 @@ button {
 
 .pets-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 32px 0 120px 0;
-    border: 2px solid black;
-    width: 900px;
+    width: 950px;
+    gap: 48px;
 }
 
 .pets { 
@@ -111,7 +111,7 @@ button {
     flex-direction: column;
     width: 200px;
     align-items: space-between;
-    border: 2px solid red;
+    gap: 8px;
 }
 
 
@@ -125,5 +125,6 @@ button {
 .text {
     color: #1F2937;
     text-align: center;
-    padding: 0 24px;
+    font-size: 18px;
+    padding: 0 16px;
 }
