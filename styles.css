@@ -140,10 +140,19 @@ button {
     width: 970px;
     display: flex;
     flex-direction: column;
+    margin: 100px;
 }
 
 .quote {
     font-size: 36px; 
-    font-style: light italic; 
+    font-style: italic; 
+    font-weight: 200;
     color: #1F2937;
+    text-align: justify;
+}
+
+.quote-source {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 20px;
 }
