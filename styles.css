@@ -160,3 +160,25 @@ button {
     font-size: 24px;
     padding-right: 80px;
 }
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.signup-block {
+    margin: 100px;
+    background-color: #3882F6;
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    border-radius: 14px;
+}
+
+.its-time {
+    font-size: 24px;
+    color: #F9FAF8
+}
