@@ -197,3 +197,11 @@ button {
     color: #F9FAF8;
     font-weight: 800;
 }
+
+.footer {
+    background-color:#1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px 0;
+}
