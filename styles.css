@@ -84,18 +84,42 @@ button {
     max-width: 400px;
 }
 
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .information{
     font-size: 36px; 
     font-weight: 800;
     color: #1F2937;
     text-align: center;
+    margin-top: 32px;
 }
 
 .pets-container {
     display: flex;
+    justify-content: center;
+    margin: 32px 0 120px 0;
+    border: 2px solid black;
+    width: 900px;
+}
+
+.pets { 
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: space-between;
+    
 }
 
 .square img {
     max-width: 200px;
     max-height: 200px;
+}
+
+.text {
+    color: #1F2937;
+    text-align: center;
 }
