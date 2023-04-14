@@ -114,9 +114,12 @@ button {
     border: 2px solid red;
 }
 
+
 .square img {
     max-width: 200px;
     max-height: 200px;
+    border: 4px solid #3882F6; 
+    border-radius: 14px;
 }
 
 .text {
